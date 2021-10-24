@@ -8,6 +8,8 @@ if ($id) {
     $result = mysqli_query($link, 'select * from images where id = '.$id);
     $image= mysqli_fetch_assoc($result);
     if ($image){
+
         echo '<img src =" '.$image['image_path'].'">';
+        
     }
 }
