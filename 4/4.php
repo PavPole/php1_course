@@ -9,8 +9,6 @@ foreach ($images as $img) {
 
 ?>
 
-
-
 <a href='/img/<?php echo $img; ?>' target='_blank'>
     <img src='/img/<?php echo $img; ?>' style='width:12%'>
 </a> 
@@ -20,7 +18,5 @@ foreach ($images as $img) {
 }
 ?>
 </body>
-
-
 
 </html>
